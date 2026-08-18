@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ—ºï¸ Atlas â€” Spatial Geographic Information System (Web-GIS)
+# - Atlas " Spatial Geographic Information System (Web-GIS)
 
 ### *Interactive Web Mapping & Geospatial Data Visualization Platform*
 
@@ -14,32 +14,32 @@
 
 </div>
 
-## ðŸ“Œ About Atlas
+## " About Atlas
 
 **Atlas** is an interactive **Web-GIS (Geographic Information System)** application built to visualize geospatial datasets, boundary maps, point-of-interest (POI) clusters, and spatial analytics. It enables researchers, urban planners, and administrators to interactively inspect map layers, query spatial attributes, and render geographic overlays.
 
 ---
 
-## âœ¨ Key Features
+##  Key Features
 
-### ðŸ“ 1. Interactive Map Canvas
+### " 1. Interactive Map Canvas
 - Multi-provider basemap support (OpenStreetMap, Satellite Tiles, CartoDB Light/Dark).
 - Smooth zoom, pan, and coordinate tracking (Latitude / Longitude).
 - Custom map marker icons and popups with rich HTML metadata.
 
-### ðŸ“ 2. Geospatial Layer & GeoJSON Management
+### " 2. Geospatial Layer & GeoJSON Management
 - Import and render GeoJSON feature collections (Polygons, Lines, Points).
 - Dynamic layer toggling (Administrative Boundaries, Zoning, Facilities).
 - Color-coded thematic mapping (Choropleth Maps) based on dataset values.
 
-### ðŸ” 3. Proximity Search & Cluster Analysis
+### " 3. Proximity Search & Cluster Analysis
 - Marker clustering for high-density spatial datasets to maintain 60 FPS map rendering.
 - Distance calculator & buffer zone radius search around selected coordinates.
 - Filter spatial features by category, name, or attribute value.
 
 ---
 
-## ðŸ› ï¸ Technology Stack
+##   Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -50,25 +50,25 @@
 
 ---
 
-## ðŸ“‚ Repository Structure
+## " Repository Structure
 
 `
 atlas/
-â”œâ”€â”€ assets/
-â”‚   â”œâ”€â”€ css/            # Custom Map & UI Stylesheets
-â”‚   â”œâ”€â”€ js/             # Leaflet Init & Spatial Query Logic
-â”‚   â””â”€â”€ images/         # Map Markers & Icon Assets
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
-â”‚   â””â”€â”€ spatial.json    # Feature Attributes Database
-â”œâ”€â”€ api/                # PHP Backend Endpoints for Spatial Queries
-â”œâ”€â”€ index.php           # Main Map Canvas & Interface
-â””â”€â”€ README.md           # Documentation
+""" assets/
+"   """ css/            # Custom Map & UI Stylesheets
+"   """ js/             # Leaflet Init & Spatial Query Logic
+"   """" images/         # Map Markers & Icon Assets
+""" data/
+"   """ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
+"   """" spatial.json    # Feature Attributes Database
+""" api/                # PHP Backend Endpoints for Spatial Queries
+""" index.php           # Main Map Canvas & Interface
+"""" README.md           # Documentation
 `
 
 ---
 
-## ðŸš€ Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Any standard web server (Laragon, XAMPP, Nginx, or PHP CLI Server).
@@ -90,12 +90,12 @@ php -S localhost:8000
 
 ---
 
-## ðŸ“ License & Author
+## " License & Author
 
 Distributed under the **MIT License**.
 
-ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
-âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
+' **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
+ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
