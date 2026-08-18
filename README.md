@@ -1,8 +1,8 @@
 <div align="center">
 
-# - Atlas " Spatial Geographic Information System (Web-GIS)
+# Atlas - Spatial Geographic Information System (Web-GIS)
 
-### *Interactive Web Mapping & Geospatial Data Visualization Platform*
+### *Interactive Web Mapping and Geospatial Data Visualization Platform*
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet&logoColor=white)
@@ -14,61 +14,61 @@
 
 </div>
 
-## " About Atlas
+## Overview
 
-**Atlas** is an interactive **Web-GIS (Geographic Information System)** application built to visualize geospatial datasets, boundary maps, point-of-interest (POI) clusters, and spatial analytics. It enables researchers, urban planners, and administrators to interactively inspect map layers, query spatial attributes, and render geographic overlays.
+Atlas is an interactive Web-GIS (Geographic Information System) application built to visualize geospatial datasets, boundary maps, point-of-interest (POI) clusters, and spatial analytics. It enables researchers, urban planners, and administrators to interactively inspect map layers, query spatial attributes, and render geographic overlays.
 
 ---
 
-##  Key Features
+## Key Features
 
-### " 1. Interactive Map Canvas
+### 1. Interactive Map Canvas
 - Multi-provider basemap support (OpenStreetMap, Satellite Tiles, CartoDB Light/Dark).
 - Smooth zoom, pan, and coordinate tracking (Latitude / Longitude).
 - Custom map marker icons and popups with rich HTML metadata.
 
-### " 2. Geospatial Layer & GeoJSON Management
+### 2. Geospatial Layer and GeoJSON Management
 - Import and render GeoJSON feature collections (Polygons, Lines, Points).
 - Dynamic layer toggling (Administrative Boundaries, Zoning, Facilities).
 - Color-coded thematic mapping (Choropleth Maps) based on dataset values.
 
-### " 3. Proximity Search & Cluster Analysis
-- Marker clustering for high-density spatial datasets to maintain 60 FPS map rendering.
-- Distance calculator & buffer zone radius search around selected coordinates.
+### 3. Proximity Search and Cluster Analysis
+- Marker clustering for high-density spatial datasets to maintain smooth map rendering.
+- Distance calculator and buffer zone radius search around selected coordinates.
 - Filter spatial features by category, name, or attribute value.
 
 ---
 
-##   Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
 | **Frontend Map Rendering** | Leaflet.js 1.9+, Turf.js (Geospatial Analysis) |
 | **Data Format** | GeoJSON, WKT (Well-Known Text), JSON API |
-| **Backend & API** | PHP 8.x / Native JSON API Endpoints |
-| **Styling & UI** | Custom CSS3, FontAwesome Icons, HTML5 Canvas |
+| **Backend and API** | PHP 8.x / Native JSON API Endpoints |
+| **Styling and UI** | Custom CSS3, FontAwesome Icons, HTML5 Canvas |
 
 ---
 
-## " Repository Structure
+## Repository Structure
 
 `
 atlas/
-""" assets/
-"   """ css/            # Custom Map & UI Stylesheets
-"   """ js/             # Leaflet Init & Spatial Query Logic
-"   """" images/         # Map Markers & Icon Assets
-""" data/
-"   """ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
-"   """" spatial.json    # Feature Attributes Database
-""" api/                # PHP Backend Endpoints for Spatial Queries
-""" index.php           # Main Map Canvas & Interface
-"""" README.md           # Documentation
+â”œâ”€â”€ assets/
+â”‚   â”œâ”€â”€ css/            # Custom Map and UI Stylesheets
+â”‚   â”œâ”€â”€ js/             # Leaflet Init and Spatial Query Logic
+â”‚   â””â”€â”€ images/         # Map Markers and Icon Assets
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
+â”‚   â””â”€â”€ spatial.json    # Feature Attributes Database
+â”œâ”€â”€ api/                # PHP Backend Endpoints for Spatial Queries
+â”œâ”€â”€ index.php           # Main Map Canvas and Interface
+â””â”€â”€ README.md           # Documentation
 `
 
 ---
 
-##  Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - Any standard web server (Laragon, XAMPP, Nginx, or PHP CLI Server).
@@ -90,14 +90,14 @@ php -S localhost:8000
 
 ---
 
-## " License & Author
+## License and Author
 
-Distributed under the **MIT License**.
+Distributed under the MIT License.
 
-' **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
- **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
+Author: Pangeran Ryan Pahlevi (https://github.com/raphlv)  
+Email: pangeranryan080504@gmail.com  
 
 ---
 <div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:37:04</sub>
+  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:40:47</sub>
 </div>
