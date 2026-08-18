@@ -1,129 +1,103 @@
 ﻿<div align="center">
 
-# Atlas - Interactive Spatial GIS System
+# ðŸ—ºï¸ Atlas â€” Spatial Geographic Information System (Web-GIS)
 
-### *Geographic Information System & Spatial Data Mapping*
+### *Interactive Web Mapping & Geospatial Data Visualization Platform*
 
-![JavaScript](https://img.shields.io/badge/JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-informational?style=for-the-badge&logo=Leaflet&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-informational?style=for-the-badge&logo=PHP&logoColor=white) ![GeoJSON](https://img.shields.io/badge/GeoJSON-informational?style=for-the-badge&logo=GeoJSON&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-informational?style=for-the-badge&logo=MySQL&logoColor=white)
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![GeoJSON](https://img.shields.io/badge/GeoJSON-Data-000000?style=for-the-badge&logo=json&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-orange?style=for-the-badge)
 
 ---
 
 </div>
 
-## ðŸ“Œ Overview
+## ðŸ“Œ About Atlas
 
-Atlas is an interactive Web-GIS platform engineered for visual spatial analysis, geographic mapping, layer management, and location-based data querying.
-
-Developed to provide a robust, clean, and production-ready architecture tailored for Web-GIS & Spatial Analytics requirements.
+**Atlas** is an interactive **Web-GIS (Geographic Information System)** application built to visualize geospatial datasets, boundary maps, point-of-interest (POI) clusters, and spatial analytics. It enables researchers, urban planners, and administrators to interactively inspect map layers, query spatial attributes, and render geographic overlays.
 
 ---
 
 ## âœ¨ Key Features
 
-- **Interactive Map Canvas with multi-layer geospatial toggles**
-- **GeoJSON & Spatial Layer Vector Data Support**
-- **Custom Radius, Buffer, & Proximity Probing Search**
-- **Marker Clustering for high-density spatial datasets**
-- **Spatial Report Export & PDF Map Printing Support**
+### ðŸ“ 1. Interactive Map Canvas
+- Multi-provider basemap support (OpenStreetMap, Satellite Tiles, CartoDB Light/Dark).
+- Smooth zoom, pan, and coordinate tracking (Latitude / Longitude).
+- Custom map marker icons and popups with rich HTML metadata.
+
+### ðŸ“ 2. Geospatial Layer & GeoJSON Management
+- Import and render GeoJSON feature collections (Polygons, Lines, Points).
+- Dynamic layer toggling (Administrative Boundaries, Zoning, Facilities).
+- Color-coded thematic mapping (Choropleth Maps) based on dataset values.
+
+### ðŸ” 3. Proximity Search & Cluster Analysis
+- Marker clustering for high-density spatial datasets to maintain 60 FPS map rendering.
+- Distance calculator & buffer zone radius search around selected coordinates.
+- Filter spatial features by category, name, or attribute value.
 
 ---
 
 ## ðŸ› ï¸ Technology Stack
 
-| Component | Technologies Used |
+| Layer | Technologies |
 | :--- | :--- |
-| **Backend & Framework** | PHP / Node.js / Laravel / Modular Architecture |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap / Tailwind CSS |
-| **Database** | MySQL / MariaDB / Relational Schema |
-| **Tools & Version Control** | Git, Composer, NPM, Laragon / Web Server |
+| **Frontend Map Rendering** | Leaflet.js 1.9+, Turf.js (Geospatial Analysis) |
+| **Data Format** | GeoJSON, WKT (Well-Known Text), JSON API |
+| **Backend & API** | PHP 8.x / Native JSON API Endpoints |
+| **Styling & UI** | Custom CSS3, FontAwesome Icons, HTML5 Canvas |
 
 ---
 
-## ðŸ“‚ Project Architecture
+## ðŸ“‚ Repository Structure
 
 `
 atlas/
-â”œâ”€â”€ app/               # Core application logic & controllers
-â”œâ”€â”€ config/            # System & environment configuration
-â”œâ”€â”€ database/          # Database migrations, seeders & schema
-â”œâ”€â”€ public/            # Public web assets (CSS, JS, Images)
-â”œâ”€â”€ resources/         # Views, templates & raw assets
-â”œâ”€â”€ routes/            # Web and API routing definitions
-â”œâ”€â”€ storage/           # Logs, cache & application uploads
-â”œâ”€â”€ README.md          # Project documentation
-â””â”€â”€ .gitignore         # Git repository exclusions
+â”œâ”€â”€ assets/
+â”‚   â”œâ”€â”€ css/            # Custom Map & UI Stylesheets
+â”‚   â”œâ”€â”€ js/             # Leaflet Init & Spatial Query Logic
+â”‚   â””â”€â”€ images/         # Map Markers & Icon Assets
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
+â”‚   â””â”€â”€ spatial.json    # Feature Attributes Database
+â”œâ”€â”€ api/                # PHP Backend Endpoints for Spatial Queries
+â”œâ”€â”€ index.php           # Main Map Canvas & Interface
+â””â”€â”€ README.md           # Documentation
 `
 
 ---
 
-## ðŸš€ Getting Started
+## ðŸš€ Quick Start Guide
 
 ### Prerequisites
+- Any standard web server (Laragon, XAMPP, Nginx, or PHP CLI Server).
+- Modern web browser with WebGL/Canvas support.
 
-Ensure you have the following installed on your local environment:
-- **PHP** >= 8.0 or **Node.js** >= 16.x
-- **Composer** / **NPM**
-- **MySQL** / **MariaDB**
-- Web Server (**Laragon** / **XAMPP** / **Apache** / **Nginx**)
+### Running Locally
 
-### Installation Steps
+`ash
+# 1. Clone Repository
+git clone https://github.com/raphlv/atlas.git
+cd atlas
 
-1. **Clone the repository**
-   `ash
-   git clone https://github.com/raphlv/atlas.git
-   cd atlas
-   `
+# 2. Start PHP Local Server
+php -S localhost:8000
 
-2. **Install Dependencies**
-   `ash
-   composer install
-   # or
-   npm install
-   `
-
-3. **Environment Configuration**
-   Copy the .env.example file and configure your database settings:
-   `ash
-   cp .env.example .env
-   `
-
-4. **Database Setup & Migration**
-   `ash
-   php artisan migrate --seed
-   `
-
-5. **Run Local Development Server**
-   `ash
-   php artisan serve
-   # or start via Laragon virtual host: http://atlas.test
-   `
-
----
-
-## ðŸ¤ Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/raphlv/atlas/issues).
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git checkout -b feature/AmazingFeature)
-5. Open a Pull Request
+# 3. Open in Browser
+# Access http://localhost:8000 in your browser
+`
 
 ---
 
 ## ðŸ“ License & Author
 
-Distributed under the **MIT License**. See LICENSE for more information.
+Distributed under the **MIT License**.
 
 ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
 âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:20:38</sub>
+  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:37:04</sub>
 </div>
