@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # Atlas - Spatial Geographic Information System (Web-GIS)
 
@@ -54,16 +54,16 @@ Atlas is an interactive Web-GIS (Geographic Information System) application buil
 
 `
 atlas/
-â”œâ”€â”€ assets/
-â”‚   â”œâ”€â”€ css/            # Custom Map and UI Stylesheets
-â”‚   â”œâ”€â”€ js/             # Leaflet Init and Spatial Query Logic
-â”‚   â””â”€â”€ images/         # Map Markers and Icon Assets
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
-â”‚   â””â”€â”€ spatial.json    # Feature Attributes Database
-â”œâ”€â”€ api/                # PHP Backend Endpoints for Spatial Queries
-â”œâ”€â”€ index.php           # Main Map Canvas and Interface
-â””â”€â”€ README.md           # Documentation
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ assets/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ css/            # Custom Map and UI Stylesheets
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ js/             # Leaflet Init and Spatial Query Logic
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ images/         # Map Markers and Icon Assets
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ data/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ spatial.json    # Feature Attributes Database
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ api/                # PHP Backend Endpoints for Spatial Queries
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.php           # Main Map Canvas and Interface
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ README.md           # Documentation
 `
 
 ---
@@ -101,3 +101,5 @@ Email: pangeranryan080504@gmail.com
 <div align="center">
   <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:40:47</sub>
 </div>
+
+<!-- Last updated: 2026-08-21 09:00:04 -->
