@@ -18,5 +18,33 @@ Spatial data analytics and geographic infrastructure mapping platform. Visualize
 
 ---
 
+## Key Features
+
+- GeoJSON Boundary Renderer: Renders sub-district, district, and regional boundary layers.
+- Point of Interest (POI) Clustering: Dynamic grouping of public facilities, schools, and hospitals.
+- Radius Distance Calculator: Computes geodesic proximity from central municipal locations.
+
+---
+
+## Technology Stack
+
+- Backend: Laravel 10
+- Frontend: Leaflet.js, OpenStreetMap
+- Database: MySQL Spatial
+
+---
+
+## Getting Started
+
+`ash
+git clone https://github.com/raphlv/atlas.git
+cd atlas
+composer install
+php artisan migrate
+php artisan serve
+`
+
+---
+
 ## Developer and Maintainer
 Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
