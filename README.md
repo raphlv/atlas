@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# ðŸ—ºï¸ Atlas GIS â€” Interactive Geospatial Infrastructure Mapping
+# Atlas GIS â€” Interactive Geospatial Infrastructure Mapping
 
 ### *Spatial Data Visualizer, Route Analytics, & Demographic Distribution*
 
@@ -12,9 +12,14 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
 Spatial data analytics and geographic infrastructure mapping platform. Visualizes spatial coordinates, regional boundaries (GeoJSON), and facility points-of-interest.
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+---
+
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
+
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
