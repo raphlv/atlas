@@ -1,108 +1,20 @@
 ﻿<div align="center">
 
-# Atlas - Spatial Geographic Information System (Web-GIS)
+# ðŸ—ºï¸ Atlas GIS â€” Interactive Geospatial Infrastructure Mapping
 
-### *Interactive Web Mapping and Geospatial Data Visualization Platform*
+### *Spatial Data Visualizer, Route Analytics, & Demographic Distribution*
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![GeoJSON](https://img.shields.io/badge/GeoJSON-Data-000000?style=for-the-badge&logo=json&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-GIS-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
 </div>
 
-## Overview
+## ðŸ“Œ About The Project
 
-Atlas is an interactive Web-GIS (Geographic Information System) application built to visualize geospatial datasets, boundary maps, point-of-interest (POI) clusters, and spatial analytics. It enables researchers, urban planners, and administrators to interactively inspect map layers, query spatial attributes, and render geographic overlays.
+Spatial data analytics and geographic infrastructure mapping platform. Visualizes spatial coordinates, regional boundaries (GeoJSON), and facility points-of-interest.
 
----
-
-## Key Features
-
-### 1. Interactive Map Canvas
-- Multi-provider basemap support (OpenStreetMap, Satellite Tiles, CartoDB Light/Dark).
-- Smooth zoom, pan, and coordinate tracking (Latitude / Longitude).
-- Custom map marker icons and popups with rich HTML metadata.
-
-### 2. Geospatial Layer and GeoJSON Management
-- Import and render GeoJSON feature collections (Polygons, Lines, Points).
-- Dynamic layer toggling (Administrative Boundaries, Zoning, Facilities).
-- Color-coded thematic mapping (Choropleth Maps) based on dataset values.
-
-### 3. Proximity Search and Cluster Analysis
-- Marker clustering for high-density spatial datasets to maintain smooth map rendering.
-- Distance calculator and buffer zone radius search around selected coordinates.
-- Filter spatial features by category, name, or attribute value.
-
----
-
-## Technology Stack
-
-| Layer | Technologies |
-| :--- | :--- |
-| **Frontend Map Rendering** | Leaflet.js 1.9+, Turf.js (Geospatial Analysis) |
-| **Data Format** | GeoJSON, WKT (Well-Known Text), JSON API |
-| **Backend and API** | PHP 8.x / Native JSON API Endpoints |
-| **Styling and UI** | Custom CSS3, FontAwesome Icons, HTML5 Canvas |
-
----
-
-## Repository Structure
-
-`
-atlas/
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ assets/
-Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ css/            # Custom Map and UI Stylesheets
-Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ js/             # Leaflet Init and Spatial Query Logic
-Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ images/         # Map Markers and Icon Assets
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ data/
-Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ geojson/        # Spatial Layers (Boundaries, Roads, POIs)
-Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ spatial.json    # Feature Attributes Database
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ api/                # PHP Backend Endpoints for Spatial Queries
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.php           # Main Map Canvas and Interface
-Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ README.md           # Documentation
-`
-
----
-
-## Quick Start Guide
-
-### Prerequisites
-- Any standard web server (Laragon, XAMPP, Nginx, or PHP CLI Server).
-- Modern web browser with WebGL/Canvas support.
-
-### Running Locally
-
-`ash
-# 1. Clone Repository
-git clone https://github.com/raphlv/atlas.git
-cd atlas
-
-# 2. Start PHP Local Server
-php -S localhost:8000
-
-# 3. Open in Browser
-# Access http://localhost:8000 in your browser
-`
-
----
-
-## License and Author
-
-Distributed under the MIT License.
-
-Author: Pangeran Ryan Pahlevi (https://github.com/raphlv)  
-Email: pangeranryan080504@gmail.com  
-
----
-<div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:40:47</sub>
-</div>
-
-<!-- Last updated: 2026-09-01 13:06:26 -->
-
-
+<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
 
